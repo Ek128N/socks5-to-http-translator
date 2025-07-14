@@ -1,0 +1,11 @@
+listen_address: "127.0.0.1:1080"
+
+http_proxy:
+  host: "proxy.server.com"
+  port: 3128
+  username: "user"
+  password: "pass"
+
+timeouts:
+  dial: 10     # seconds
+  idle: 60    # seconds
